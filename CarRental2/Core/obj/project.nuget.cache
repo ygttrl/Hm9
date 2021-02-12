@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z0m7zjxeGnyFnyDlF3cf8YdS9d+Fb0w9mk4Y+SOF6ZvKUFfu9VB4Y4FF3lBP65dt7v2F6wiN+m0diM2JcljoMw==",
+  "dgSpecHash": "cu+WO47m8x+bOhj7AsX+TAxxzBSyuucVOboXIIzlJ1IF5Dlw4zguCVNJlSfDWu8YMCvTxLcdaysJBZZJo5fTMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yigit-Tirali\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Yigit-Tirali\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

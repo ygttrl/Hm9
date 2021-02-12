@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Core\\Core.csproj": {}
+    "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Core\\Core.csproj": {
+    "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Yigit-Tirali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,4 +1,6 @@
 ﻿using Business.Abstruct;
+using Business.Constants;
+using Core.Utilities.Result;
 using DataAccess.Abstruct;
 using Entity.Entities;
 using System;
@@ -16,34 +18,58 @@ namespace Business.Concrete
             _brandDal = brandDal;
         }
 
-        public void Add(Brand brand)
+        public IResult Add(Brand brand)
         {
+            if (brand==null)
+            {
+                return new ErrorResult();
+            }
             _brandDal.Add(brand);
+            return new SuccessResult();
         }
 
-        public void Delete(Brand brand)
+        public IResult Delete(Brand brand)
         {
+            if (brand==null)
+            {
+                return new ErrorResult(Message.ErrorMasage);
+            }
+
             _brandDal.Delete(brand);
+            return new SuccessResult();
         }
 
-        public void Update(Brand brand)
+        public IResult Update(Brand brand)
         {
+            if (brand==null)
+            {
+                return new ErrorResult();
+            }
             _brandDal.Update(brand);
+            return new ErrorResult();
         }
 
-        public Brand Get(int id)
+        public IDataResult<Brand> Get(int id)
         {
-           return  _brandDal.Get(x => x.Id==id);
+            if (id<=0)
+            {
+                return new ErrorDataResult<Brand>(Message.ErrorMasage);
+            }
+            return new SuccessDataResult<Brand>(_brandDal.Get(x => x.Id == id), Message.ErrorMasage);
         }
 
-        public List<Brand> GetAll(int brandId)
+        public IDataResult<List<Brand>> GetAll(int brandId)
         {
-            return _brandDal.GetAll(x => x.Id == brandId);
+            if (brandId<=0)
+            {
+                return new ErrorDataResult<List<Brand>>(Message.ErrorMasage);
+            }
+            return new SuccessDataResult<List<Brand>>(_brandDal.GetAll(x => x.Id == brandId),Message.SuccesMassage);
         }
 
-        public List<Brand> GetAll()
+        public IDataResult<List<Brand>> GetAll()
         {
-            return _brandDal.GetAll();
+            return new SuccessDataResult<List<Brand>>(_brandDal.GetAll(),Message.SuccesMassage);
         }
 
        

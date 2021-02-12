@@ -1,4 +1,6 @@
 ﻿using Business.Abstruct;
+using Business.Constants;
+using Core.Utilities.Result;
 using DataAccess.Abstruct;
 using Entity.Dtos;
 using Entity.Entities;
@@ -17,39 +19,62 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
-        public void Add(Car car)
+        public IResult Add(Car car)
         {
+            if (car==null)
+            {
+                return new ErrorResult(Message.ErrorMasage);
+            }
             _carDal.Add(car);
+            return new SuccessResult(Message.SuccesMassage);
         }
 
-        public void Delete(Car car)
+        public IResult Delete(Car car)
         {
+            if (car==null)
+            {
+                return new ErrorResult(Message.ErrorMasage);
+            }
             _carDal.Delete(car);
+            return new SuccessResult(Message.SuccesMassage);
         }
 
-        public void Update(Car car)
+        public IResult Update(Car car)
         {
+            if (car == null)
+            {
+                return new ErrorResult(Message.ErrorMasage);
+            }
             _carDal.Update(car);
+            return new SuccessResult(Message.SuccesMassage);
         }
 
-        public Car Get(int id)
+        public IDataResult<Car> Get(int id)
         {
-          return  _carDal.Get(x => x.Id == id);
+            if (id<=0)
+            {
+                return new ErrorDataResult<Car>(Message.ErrorMasage);
+            }
+          return  new SuccessDataResult<Car>(_carDal.Get(x => x.Id == id),Message.ErrorMasage);
         }
 
-        public List<Car> GetAll(int brandId)
+        public IDataResult<List<Car>> GetAll(int brandId)
         {
-            return _carDal.GetAll(x => x.BrandId== brandId);
+            if (brandId<=0)
+            {
+                return new ErrorDataResult<List<Car>>(Message.ErrorMasage);
+            }
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(x => x.BrandId == brandId),Message.SuccesMassage);
         }
 
-        public List<Car> GetAll()
+        public IDataResult<List<Car>> GetAll()
         {
-            return _carDal.GetAll();
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(),Message.SuccesMassage);
         }
 
-        public List<CarDetailDto> GetCatDetails()
+        public IDataResult<List<CarDetailDto>> GetCatDetails()
         {
-            return _carDal.GetCarDetails();
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(),Message.SuccesMassage);
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\ConsoleApp\\ConsoleApp.csproj": {}
+    "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Business\\Business.csproj": {
+    "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Yigit-Tirali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Business\\obj\\",
+        "outputPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Entity\\Entity.csproj"
+              "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Entity\\Entity.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\ConsoleApp\\ConsoleApp.csproj": {
+    "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\Yigit-Tirali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -95,14 +95,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Business\\Business.csproj"
+              "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Business\\Business.csproj"
               },
-              "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Entity\\Entity.csproj"
+              "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Entity\\Entity.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Core\\Core.csproj": {
+    "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Yigit-Tirali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -196,14 +196,14 @@
         }
       }
     },
-    "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Yigit-Tirali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -222,11 +222,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Core\\Core.csproj"
+              "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Core\\Core.csproj"
               },
-              "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Entity\\Entity.csproj"
+              "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Entity\\Entity.csproj"
               }
             }
           }
@@ -265,14 +265,14 @@
         }
       }
     },
-    "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Entity\\Entity.csproj": {
+    "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\Yigit-Tirali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -291,8 +291,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Yigit-Tirali\\source\\repos\\CarRental2\\Core\\Core.csproj"
+              "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Yigit-Tirali\\Desktop\\Homework9\\Hm9\\CarRental2\\Core\\Core.csproj"
               }
             }
           }
