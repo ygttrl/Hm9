@@ -10,7 +10,7 @@ namespace Business.Abstruct
     {
         IDataResult<List<Color>> GetAll(int brandId);
 
-       IDataResult<List<Color>> GetAll();
+        IDataResult<List<Color>> GetAll();
 
         IResult Add(Color brand);
 

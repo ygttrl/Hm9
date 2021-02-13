@@ -57,10 +57,40 @@ namespace ConsoleApp
             //} 
             #endregion
 
-            CarManager carManager = new CarManager(new EfCarDal());
-            foreach (var item in carManager.GetCatDetails())
+            #region Car2
+            //CarManager carManager = new CarManager(new EfCarDal());
+            //foreach (var item in carManager.GetCatDetails().Data)
+            //{
+            //    Console.WriteLine($"{item.BrandName} -- {item.CarName} -- {item.ColorName} -- {item.DailyPrice} ");
+            //} 
+            #endregion
+
+            #region Cutomer
+            //CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+
+            //foreach (var customers in customerManager.GetAll().Data)
+            //{
+            //    Console.WriteLine(customers.Id +" -- "+ customers.UserId + " -- " +customers.CompanyName);
+            //} 
+            #endregion
+
+            #region Rental
+            //RentalManager rentalManager = new RentalManager(new EfRentalDal());
+
+            ////foreach (var item in rentalManager.GetAll().Data)
+            ////{
+            ////    Console.WriteLine(item.Id +" "+ item.CarId+" " +item.CustomerId +" "+item.RentDate +" "+item.ReturnDate);
+            ////}
+            //Rental rental = new Rental { CarId=10,CustomerId=2,RentDate=DateTime.Now };
+            //var rent =  rentalManager.Add(rental);
+            //Console.WriteLine(rent.Message); 
+            #endregion
+
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+
+            foreach (var item in rentalManager.GetByRentDetail().Data)
             {
-                Console.WriteLine($"{item.BrandName} -- {item.CarName} -- {item.ColorName} -- {item.DailyPrice} ");
+                Console.WriteLine(+item.RentalId+" "+item.BrandId +" "+item.BrandName +" "+item.CustomerId+" "+item.CompanyName+" "+item.UserId+" "+item.FirstName+" "+item.LastName);
             }
 
         }
